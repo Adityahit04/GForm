@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    margin: 0px 10px;
+    background-color: #fff;
+}
+
+.form-image {
+    width: 2.2rem;
+}
+
+.header-info,
+.header-search,
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    color: #566368;
+    font-size: 22px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-family: "Google Sans", sans-serif;
+}
+
+.header-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f4f4f9;
+    width: 700px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.header-search>input {
+    border: none;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+}

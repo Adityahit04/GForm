@@ -1,0 +1,49 @@
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    padding-bottom: 2rem;
+    background-color: #f4f4f9;
+    font-size: 20px;
+}
+
+.form-header-left {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form-header-right {
+    display: flex;
+    align-items: center;
+}
+
+.form-image-icon {
+    width: 45px;
+    height: 45px;
+    color: #202124;
+    font-size: 20px;
+}
+
+.form-name {
+    border: none;
+    outline: none;
+    font-family: 'Google Sans', Roboto;
+    font-size: 18px;
+    font-weight:400;
+    line-height: 24px;
+    margin-left: 15px;
+    color: #202124;
+    width: 120px;
+    background-color: #f4f4f9;
+}
+
+.form-name:focus {
+    border-bottom: 2px solid black;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+}

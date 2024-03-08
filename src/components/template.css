@@ -1,0 +1,43 @@
+.template {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f9;
+    padding: 0px 160px;
+    padding-top: 7px;
+    padding-bottom: 35px;
+}
+
+.template-head {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.8rem;
+}
+
+span {
+    color: #202124;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.template-blank-form {
+    width: 160px;
+    height: 120px;
+    background-color: #fff;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.template-blank-form:hover {
+    border: 1px solid blue;
+}
+
+.plus-icon {
+    width: 50%;
+}
+
+.template-main {
+    text-align: left;
+}
